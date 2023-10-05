@@ -1,0 +1,250 @@
+/* Fonts  */
+
+/* Hanken Grotesk -> 400 */
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');;
+
+/* End of Fonts */
+
+/* Global Information */
+
+/* Resets */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Variebles*/
+:root {
+  /* General */
+  --CONTAINER-BG-C: rgba(0, 0, 0, 0.5);
+  --BOX-SHADOW: 10px 10px 5px 0px rgba(0, 0, 0, 54);
+  --TEXT-SHADOW: 4px 4px 3px black;
+
+  /* Colors */
+  --PRIMARY-COLOR: #2d353d; /* 60% */
+  --SECONDARY-COLOR: #00c6b4; /* 30*/
+  --TERTIARY-COLOR: #d3fbd8; /* 10%*/
+  --NATURAL: #fff;
+  --DARK-LIGHT: #e8ebf7;
+  --DARK-LIGHT-BG: #e8ebf7;
+  /* --DARK-LIGHT-TEXT: #2b4fbd; */
+  --DARK: #000;
+
+  --DARK-COLOR-TR: hsla(0, 0%, 0%, 0.205);
+
+  /* Colors */
+  --PRIMARY-COLOR-TEST: #2d353d; /* 60% */
+  --SECONDARY-COLOR-TEST: #009cf8; /* 30*/
+  --TERTIARY-COLOR-TEST: #f1faff; /* 10%*/
+  --TEST-4: #334d63;
+
+  /* Number Sizes */
+  --XXS-N-0-5: 0.5rem;
+  --XS-N-1: 1rem;
+  --SEMI-S-N-1-25: 1.25rem;
+  --S-N-1-5: 1.5rem;
+  --M-N-2: 2rem;
+  --L-N-2-5: 2.5rem;
+  --XL-N-3: 3rem;
+  --XXL-N-3-5: 3.5rem;
+
+  /* Font Sizes */
+  --FW-100: 100;
+  --FW-200: 200;
+  --FW-300: 300;
+  --FW-400: 400;
+  --FW-500: 500;
+  --FW-600: 600;
+  --FW-700: 700;
+  --FW-800: 800;
+  --FW-900: 900;
+}
+
+/* Classes that are activeted by java script */
+.game-output {
+  display: none;
+}
+
+.game-output.active {
+  display: block;
+}
+/* End of Classes that are activeted by java script */
+
+/* Utilities Classes */
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container Propeties */
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-container {
+  /* Body of the site */
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.hero-container {
+  /* height: 80vh; */
+  padding: 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: var(--M-N-2) 0;
+  margin-bottom: var(--M-N-2);
+}
+
+/* End of Container Propeties */
+
+/* End of Utilities Classes */
+
+/* tag reset */
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  object-fit: -webkit-cover;
+  object-fit: -moz-cover;
+  object-fit: -ms-cover;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  font-family: inherit;
+  padding: 8px 15px;
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  font-family: inherit;
+  width: 100%;
+  padding: 5px;
+  color: var(--NATURAL);
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+
+/* End of tag reset */
+
+/* Typograpy */
+
+/* Headings */
+h1 {
+  /* font-family: 'Poppins', sans-serif; */
+  text-align: center;
+  font-family: "Roboto", cursive;
+  font-size: var(--XXL-N-3-5);
+  color: var(--SECONDARY-COLOR);
+  font-weight: var(--FW-700);
+  margin: var(--S-N-1-5) 0;
+}
+
+/* Heading Font style */
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: var(--M-N-2);
+  font-weight: var(--FW-300);
+  margin: var(--XXS-N-0-5) 0;
+}
+
+h3 {
+  font-size: var(--S-N-1-5);
+  font-weight: var(--FW-200);
+  margin: 5px 0;
+}
+
+h4 {
+  font-size: var(--SEMI-S-N-1-25);
+  margin: 4px 0;
+}
+
+h5 {
+  margin: 4px 0;
+}
+
+h6 {
+  margin: 3px 0;
+}
+/* Paragraphs */
+/* p{
+	font-size: var(--XS-N);
+	color: aqua; 
+} */
+
+/* End of Typograpy */
+
+/* Padding */
+.b-p {
+  padding: 2rem;
+}
+
+.m-p {
+  padding: 1.5rem;
+}
+
+.s-p {
+  padding: 1rem;
+}
+
+/* margin */
+.b-m {
+  margin: 2rem;
+}
+
+.m-m {
+  margin: 1.5rem;
+}
+
+.s-m {
+  margin: 1rem;
+}
+
+/* General Styles */
+
+.bg-header {
+  font-size: var(--L-N);
+}
