@@ -14,8 +14,6 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -27,12 +25,14 @@ Users be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+- These screenshot folder is located in Results Summary Component folder
+
+![mobile view](./solution/Mobile%20View.PNG)
+![desktop view](./solution/Desktop%20View.PNG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Results Summary Component live site](https://nstechsolutions.co.za/front%20mentor%20project%20challengers/results%20summary%20component/)
 
 ## My process
 
@@ -70,14 +70,11 @@ I currently working on my improving
 - [CSS Gradient](https://cssgradient.io/) - This helped me to create the color gradients.
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Name - Ntokozo Ncube
+- Frontend Mentor - [NSTechSolutions](https://www.frontendmentor.io/profile/NSTechSolutions)
 
 ## Acknowledgments
 
 I would like to thank frontend mentor for creating an environment were us web develops
 how don't have a lot of projects for portfolio, where we can given real-life projects with real challenges and guidelines, where we can shared our projects with our developers and get a feel of how it would be working for Software Engineering would be.
-This is my first challenge of many to come.
-)
+This is my first challenge, of many to come.
