@@ -31,7 +31,7 @@ Users be able to:
 ![desktop view](./solution/Desktop%20View.PNG)
 
 ### Links
-
+- Solution Site: [Results Summary Component Solution site](https://frontend-mentor-first-project.pages.dev/)
 - Live Site URL: [Results Summary Component live site](https://nstechsolutions.co.za/front%20mentor%20project%20challengers/results%20summary%20component/)
 
 ## My process
